@@ -1,0 +1,14 @@
+{
+  "name": "node-saml-example",
+  "description": "Example node website using SAML tokens.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "latest",
+    "express-session": "^1.12.1",
+    "jade": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-wsfed-saml2": "^2.5.0"
+  }
+}

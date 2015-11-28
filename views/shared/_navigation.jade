@@ -1,0 +1,13 @@
+block navigation
+    li(class=page=="home"?"active":undefined)
+        a(href="/") Home
+    li(class=page=="about"?"active":undefined)
+        a(href="/about") About
+    unless session.loggedIn
+        li(class=page=="login"?"active":undefined)
+            a(href="/login") Login
+    if session.loggedIn
+        li(class=page=="secure"?"active":undefined)
+            a(href="/secure") Secure area
+        li
+            a(href="/logout") Logout

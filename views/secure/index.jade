@@ -1,0 +1,10 @@
+extend ../shared/_layout
+block content
+  .starter-template
+    h1 Secure Area
+    p You have accessed the secure area!
+    if user
+      h2 Claim data
+      ul
+        each val, prop in user
+          li= prop + ' = ' + val
