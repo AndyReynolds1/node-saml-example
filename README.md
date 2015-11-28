@@ -1,3 +1,2 @@
-# Node Website Example #
-
-Just a simple website written in Node.js using Express and Jade.
+# node-saml-example
+Simple example of a Node.js website using SAML tokens.
